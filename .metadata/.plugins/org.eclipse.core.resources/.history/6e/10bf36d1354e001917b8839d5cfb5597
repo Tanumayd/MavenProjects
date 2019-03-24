@@ -1,0 +1,22 @@
+
+public class Demo {
+	
+	void animal()
+	{
+		System.out.println("Barks....");
+	}
+class Dog extends Demo{
+	
+	void color()
+	{
+		System.out.println("brown");
+	}
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Dog d = new Dog();
+		d.animal();
+		
+	}
+
+}
