@@ -1,0 +1,30 @@
+
+class Animal {
+	
+	void Bark()
+	{
+		
+		System.out.println("Barking.......");
+	}
+class Dog extends Animal{
+	
+	void Color()
+	{
+		System.out.println("Brown");
+	}
+	
+class Inheritance{
+	
+	public void main(String args[])
+	
+	{
+	
+	Dog d= new Dog();
+	d.Bark();
+	d.Color();
+	
+		
+	}
+}
+}
+}

@@ -1,0 +1,18 @@
+
+class Animal {
+	
+	void Bark()
+	{
+		
+		System.out.println("Barking.......");
+	}
+class Dog extends Animal{
+	
+	void Color()
+	{
+		System.out.println("Brown");
+	}
+	
+class 	
+}
+}
